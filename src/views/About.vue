@@ -1,5 +1,13 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <Sidebar />
 </template>
+
+<script>
+import Sidebar from '@/components/Sidebar'
+
+export default {
+  components: {
+    Sidebar
+  }
+}
+</script>

@@ -19,6 +19,8 @@
     </div>
     <div class="col-span-10 p-50">content</div>
 </div>
+
+
     <!-- <router-link :to="{ name: 'Dashboard' }"><span class="text-sm ml-2">Dashboard</span></router-link> -->
     <!-- <router-link :to="{name: 'About'}"><span class="text-sm ml-2">About</span></router-link> -->
     <!-- <Content /> -->

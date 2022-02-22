@@ -1,19 +1,42 @@
 <template>
-    <div class="col-span-10">
-        <div class="pl-24 py-10 h-64 w-11/12 px-6">
-        <div class="w-full h-full rounded border-dashed border-2 border-gray-300">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam velit, quod voluptate quis assumenda quo quibusdam dicta temporibus dolores pariatur nobis mollitia dolorum ducimus dolorem veritatis aspernatur alias qui necessitatibus.</p>
-        </div>
+  <div class="col-span-10">
+    <div
+      class="
+        h-16
+        flex
+        justify-end
+        px-12
+        bg-gray-300
+        shadow-xl
+        items-center
+      "
+    >
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6 text-gray-800"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+          />
+        </svg>
+      </div>
     </div>
-    </div>
+    <div class="px-8 py-8">content</div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "Content",
-}
+  name: "Content",
+};
 </script>
 
 <style scoped>
-
 </style>

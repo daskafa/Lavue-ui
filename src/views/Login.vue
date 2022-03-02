@@ -47,17 +47,22 @@ export default {
   },
   methods: {
     login() {
-      axios.post("http://lavue-api.test/api/login", this.form).then((res) => {
-        localStorage.setItem("token", res.data.token);
-      });
+      axios
+        .post("http://lavue-api.test/api/login", this.form)
+        .then((res) => {
+          if (res.data.statu != false) {
+            localStorage.setItem("token", res.data.token);
+            this.$router.push("/admin");
+          }
+        })
       axios
         .get("http://lavue-api.test/api/users", {
           headers: {
-            Authorization: 'Bearer ' + localStorage.token,
+            Authorization: "Bearer " + localStorage.token,
           },
         })
-        .then((res) => {
-          console.log(res);
+        .then(() => {
+          console.log("falan filan");
         });
     },
   },

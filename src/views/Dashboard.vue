@@ -1,14 +1,14 @@
 <template>
-    <Sidebar />
+  <Sidebar />
 </template>
 
 <script>
-import Sidebar from '@/components/Sidebar'
+import Sidebar from "@/components/Sidebar";
 
 export default {
-    name: 'Dashboard',
-    components: {
-        Sidebar,
-    }
-}
+  name: "Dashboard",
+  components: {
+    Sidebar,
+  },
+};
 </script>

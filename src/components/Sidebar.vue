@@ -81,11 +81,14 @@ export default {
 };
 </script>
 <style scoped>
+.router-link-active {
+  color: rgb(218, 218, 218);
+  text-decoration: underline;
+}
 .sidebar-menu-items li {
   display: flex;
 }
-.sidebar-menu-items li svg,
-.sidebar-menu-items li span {
+.sidebar-menu-items li {
   color: rgb(156, 163, 175);
 }
 </style>
